@@ -53,4 +53,3 @@ document.write("La variable booleana es de dia es:" + esDeDia);
 
 //EJERCICIOS PARA PRACTICAR
 document.write("</br> EJERCICIOS PARA PRACTICAR </br>");
-
