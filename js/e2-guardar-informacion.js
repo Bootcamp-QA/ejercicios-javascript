@@ -109,3 +109,30 @@ document.write("¿Le gusta la montaña?</br>" + gustaMontaña + "</br>");
 document.write("¿Le gusta el chocolate?</br>" + gustaChocolate + "</br>");
 document.write("¿Tienes mascota?</br>" + tieneMascota + "</br>");
 document.write("</br>");
+
+
+
+document.write("</br> EJERCICIO 2</br>");
+document.write("</br> asígnale los valores de tu película favorita y muéstrala en tu página </br>");
+let movieTitle = "Ataque del Titan";
+let director = "Tetsurō Araki";
+let genero = "anime";
+let yaerRelease = 2013;
+let duration = 72;
+let awards = true;
+
+document.write("El anime es " + movieTitle + ", el director es el " + director + ", su año de lanzamiento fue en " + yaerRelease + " y tiene " + duration + " episodios.");
+document.write("El genero es: " + genero);
+document.write("</br>");
+document.write("Tiene premios?: " + awards);
+document.write("</br>");
+
+document.write("</br> Cambiar titulo y genero a ingles </br>");
+movieTitle = "Attack on Titan";
+genero = "animation";
+
+document.write("El anime es " + movieTitle + ", el director es el " + director + ", su año de lanzamiento fue en " + yaerRelease + " y tiene " + duration + " episodios.");
+document.write("El genero es: " + genero);
+document.write("</br>");
+document.write("Tiene premios?: " + awards);
+document.write("</br>");
