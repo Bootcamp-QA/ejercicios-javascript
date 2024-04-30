@@ -13,16 +13,16 @@ let variable2;
 //Primero declarar la variable y luego iniciarla.
 document.write("EJEMPLO 1: INICIAR UNA VARIABLE CIUDAD </br>");
 
-let ciudad;
-ciudad = "Madrid";
-document.write("La variable ciudad tiene el valor: " + ciudad);
+let ciudad1;
+ciudad1 = "Madrid";
+document.write("La variable ciudad tiene el valor: " + ciudad1);
 
 //Declarar la variable e iniciarla a la vez
 document.write("</br> EJEMPLO 2: INICIAR UNA VARIABLE EDAD </br>");
-let edad = 33;
+let edad1 = 33;
 //cambiamos el valor de la variable edad
-edad = 34;
-document.write("La variable edad tiene el valor: " + edad);
+edad1 = 34;
+document.write("La variable edad tiene el valor: " + edad1);
 
 
 //TIPOS DE VARIABLES
@@ -53,3 +53,59 @@ document.write("La variable booleana es de dia es:" + esDeDia);
 
 //EJERCICIOS PARA PRACTICAR
 document.write("</br> EJERCICIOS PARA PRACTICAR </br>");
+
+document.write("EJERCICIO 1</br>");
+let nombre;
+let apellidos;
+let edad;
+let altura;
+let ciudad;
+let gustaPlaya;
+let gustaMontaña;
+let gustaChocolate;
+let tieneMascota;
+
+nombre = "Samanta";
+apellidos = "Ramos";
+edad = 39;
+altura = 1.70;
+ciudad = "Malaga";
+gustaPlaya = true;
+gustaMontaña = true;
+gustaChocolate = false;
+tieneMascota = true;
+
+document.write("Información de la persona:</br>");
+document.write("Nombre:" + nombre + "</br>");
+document.write("Apellidos:" + apellidos + "</br>");
+document.write("Edad:" + edad + "</br>");
+document.write("Altura:" + altura + "</br>");
+document.write("Ciudad:" + ciudad + "</br>");
+document.write("¿Le gusta la playa?</br>" + gustaPlaya + "</br>");
+document.write("¿Le gusta la montaña?</br>" + gustaMontaña + "</br>");
+document.write("¿Le gusta el chocolate?</br>" + gustaChocolate + "</br>");
+document.write("¿Tienes mascota?</br>" + tieneMascota + "</br>");
+document.write("</br>")
+
+document.write("INFORMACION DE UN CONOCIDO</br>")
+nombre = "Francisco";
+apellidos = "Coronado";
+edad = 58;
+altura = 1.78;
+ciudad = "Malaga";
+gustaPlaya = false;
+gustaMontaña = false;
+gustaChocolate = false;
+tieneMascota = true;
+
+document.write("Información de la persona:</br>");
+document.write("Nombre:" + nombre + "</br>");
+document.write("Apellidos:" + apellidos + "</br>");
+document.write("Edad:" + edad + "</br>");
+document.write("Altura:" + altura + "</br>");
+document.write("Ciudad:" + ciudad + "</br>");
+document.write("¿Le gusta la playa?</br>" + gustaPlaya + "</br>");
+document.write("¿Le gusta la montaña?</br>" + gustaMontaña + "</br>");
+document.write("¿Le gusta el chocolate?</br>" + gustaChocolate + "</br>");
+document.write("¿Tienes mascota?</br>" + tieneMascota + "</br>");
+document.write("</br>");
