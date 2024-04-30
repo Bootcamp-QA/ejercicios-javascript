@@ -169,3 +169,37 @@ document.write("What is the year of release?:" + releaseYear + "<br>");
 document.write("How long is the song?:" + minDuration + "<br>");
 document.write("Does the song a videoclip?:" + hasVideoclip + "<br>");
 
+// Ejercicio 4: Declara variables para guardar la siguiente información sobre un libro. Asigna los valores de tu libro favorito y muéstrala en tu página. A continuación cambia los valores de las variables por el del libro favorito de alguien que conozcas.
+document.write("EJERCICIO  4 <br>");
+let libro = "El corazón helado";
+let autor = "Almudena Grandes";
+let genero2 = "Novela histórica, ficción";
+let publicacion = 2007;
+let numeroPaginas = 800;
+let tienePelicula = false;
+
+document.write("MI LIBRO FAVORITO</br>");
+document.write("El título del libro es " + libro + "</br>");
+document.write("El nombre de la autora es " + autor + "</br>");
+document.write("El género del libro es " + genero2 + "</br>");
+document.write("El libro se publicó en " + publicacion + "</br>");
+document.write("El libro tiene "  + numeroPaginas +" " + "páginas " + "</br>");
+document.write("¿El libro tiene película? "+ tienePelicula + "</br>");
+document.write("------------------------------------------------------------------------------------------" + "</br>");
+
+
+libro = "El Conde de Montecristo";
+autor = "Alexandre Dumas";
+genero2 = "Novela histórica, aventuras";
+publicacion = 1846;
+numeroPaginas = 1000;
+tienePelicula = true;
+
+document.write("LIBRO FAVORITO DE ALGUIEN QUE CONOZCO</br>");
+document.write("El título del libro es " + libro + "</br>");
+document.write("El nombre de la autora es " + autor + "</br>");
+document.write("El género del libro es " + genero2 + "</br>");
+document.write("El libro se publicó en " + publicacion + "</br>");
+document.write("El libro tiene "  + numeroPaginas +" " + "páginas " + "</br>");
+document.write("¿El libro tiene película? "+ tienePelicula + "</br>");
+document.write("------------------------------------------------------------------------------------------" + "</br>");
