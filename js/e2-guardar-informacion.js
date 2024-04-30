@@ -36,7 +36,7 @@ document.write("El numero con decimales es "+ numeroDecimales);
 //CADENAS. Pueden usarse comillas simples o dobles. No las mezcles, usa solo una de ellas. Cuidado con caracteres especiales, no pueden ir comillas del mismo tipo dentro del texto.
 document.write("</br> EJEMPLO 4: CREAR UNA VARIABLE DE TIPO TEXTO - STRING </br>");
 let saludo = "Hola que tal?";
-let despedida = 'Adios me voy';
+let despedida = "Adios me voy";
 let numeroEnTexto = "33";
 document.write("La variable de texto saludo es: "+ saludo);
 document.write("</br>");
@@ -136,3 +136,36 @@ document.write("El genero es: " + genero);
 document.write("</br>");
 document.write("Tiene premios?: " + awards);
 document.write("</br>");
+
+document.write("</br> EJERCICIO  3 - DECLARAR VARIABLES SOBRE UNA CANCIÓN </br>");
+
+let songTitle = "Sweet Child o Mine";
+let artist = "Guns N'Roses";
+let album = "Appetite For Destruction";
+let releaseYear = 1987;
+let minDuration = 5.6;
+let hasVideoclip = true;
+document.write("<br>");
+document.write("The title of the song is:" + songTitle + "<br>");
+document.write("The name of the artist is:" + artist + "<br>");
+document.write("The name of the of the album is:" + album + "<br>");
+document.write("What is the year of release?:" + releaseYear + "<br>");
+document.write("How long is the song?:" + minDuration + "<br>");
+document.write("Does the song a videoclip?:" + hasVideoclip + "<br>");
+
+document.write("</br> EJERCICIO  3.1 - CAMBIAR LOS VALORES POR OTRA CANCIÓN </br>");
+
+songTitle = "Su culo es miel";
+artist ="Extermoduro";
+album = "Canciones Prohibidas";
+releaseYear = 1998;
+minDuration = 5.5;
+hasVideoclip = false;
+document.write("<br>");
+document.write("The title of the song is:" + songTitle + ", ");
+document.write("The name of the artist is:" + artist + "<br>");
+document.write("The name of the of the album is:" + album + "<br>");
+document.write("What is the year of release?:" + releaseYear + "<br>");
+document.write("How long is the song?:" + minDuration + "<br>");
+document.write("Does the song a videoclip?:" + hasVideoclip + "<br>");
+
