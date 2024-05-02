@@ -63,3 +63,35 @@ let arearectangulo;
 arearectangulo = baserectangulo * alturarectangulo; 
 
 document.write("Área del rectángulo es base por altura. La base es " + baserectangulo + " cm y la altura es " + alturarectangulo + " cm. Por lo que el área es " + arearectangulo + " cm" + "</br>");
+
+//EJERCICIO 4
+//Determina el área de un triángulo con base de 10 metros y altura de 8 metros.
+document.write("EJERCICIO 4: <br/> ");
+let base2 = 10;
+let altura2 = 8;
+let areaTriangulo = (base2 * altura2)/2;
+document.write("El área del triángulo es " + areaTriangulo + "<br>");
+
+//Calcula el área de un círculo con radio de 4 centímetros
+document.write("EJERCICIO 5: <br/> ");
+let radiocirculo = 4;
+const PI = 3.14; 
+
+let areacirculo = PI * (radiocirculo * radiocirculo);
+let areacirculo2 = PI * Math.pow(radiocirculo, 2);
+let areacirculo3 = PI * radiocirculo **2;
+document.write("Área del círculo es pi por radio al cuadrado. El radio es " + radiocirculo +  " cm. Por lo que el área es " + areacirculo + " cm " + "</br>");
+document.write("Área del círculo es pi por radio al cuadrado. El radio es " + radiocirculo +  " cm. Por lo que el área es " + areacirculo2 + " cm " + "</br>");
+document.write("Área del círculo es pi por radio al cuadrado. El radio es " + radiocirculo +  " cm. Por lo que el área es " + areacirculo3 + " cm " + "</br>");
+
+//EJERCICIO 6
+//Encuentra el área de un trapecio con bases de longitudes 6 cm y 10 cm, y altura de 8 cm.
+document.write("EJERCICIO 6: <br/> ");
+let basetrapecio1 = 6;
+let basetrapecio2= 10; 
+let alturatrapecio = 8; 
+let areatrapecio; 
+
+areatrapecio = alturatrapecio * ((basetrapecio1 +  basetrapecio2) / 2); 
+
+document.write("Área del trapecio es suma de las bases por su altura entre 2. La base1 es " + basetrapecio1+ " cm, la base2 es " + basetrapecio2 + " cm y la altura es " + alturatrapecio+ " cm. Por lo que el área es " + areatrapecio + " cm" + "</br>");
