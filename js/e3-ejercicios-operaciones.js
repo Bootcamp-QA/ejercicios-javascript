@@ -95,3 +95,45 @@ let areatrapecio;
 areatrapecio = alturatrapecio * ((basetrapecio1 +  basetrapecio2) / 2); 
 
 document.write("Área del trapecio es suma de las bases por su altura entre 2. La base1 es " + basetrapecio1+ " cm, la base2 es " + basetrapecio2 + " cm y la altura es " + alturatrapecio+ " cm. Por lo que el área es " + areatrapecio + " cm" + "</br>");
+
+//EJERCICIO 7
+//Determina el área de un rombo con diagonales de longitudes 12 cm y 16 cm.
+let diagonal1 = 12;
+let diagonal2 = 16;
+let areaRombo = (diagonal1 * diagonal2)/2;
+document.write("EJERCICIO 7: <br/> ");
+document.write("El área del rombo es " + " " + areaRombo + "<br>");
+
+//EJERCICIO 8
+//Calcula el área de un paralelogramo con base de 7 metros y altura de 9 metros.
+document.write("</br> EJERCICIO 8- Calcula el área de un paralelogramo con base de 7 metros y altura de 9 metros:</br>");
+//VOY A USAR LAS VARIABLES DEL RECTÁNGULO PARA CALCULAR EL PARALELOGRAMO YA QUE ES LA MISMA FÓRMULA Y PARA ESO SE CREAN LAS VARIABLES
+let baseParalelogramo = 7;
+let alturaParalelogramo = 9;
+let areaParalelogramo = baseParalelogramo * alturaParalelogramo;
+
+document.write('Para calcular el área de un paralelogramo en la base por la altura: ' + areaParalelogramo + ' centímetros' + '<br>');
+
+//EJERCICIO 9
+//Encuentra el área de un pentágono regular con lado de 6 centímetros.
+//AREA PENTAGONO PERIMETRO POR APOTAMA ENTRE DOS. PREGUNTAMOS VALOR DE APOTEMA A CHATGPT. APOTEMA DE UN PENTAGONO DE LADO 6
+let apotemapentagono = 4.13;
+let ladopentagono = 6;
+let areapentagono; 
+let perimetroPetagono = (5 * ladopentagono);
+
+
+areapentagono = (perimetroPetagono * apotemapentagono)/2;
+document.write("EJERCICIO 9: <br/> ");
+document.write("Área del pentágono es cinco veces la longitud de su lado multiplicado por su apotema dividido entre dos. Su lado es " + ladopentagono + " cm y la apotema es " + apotemapentagono + " cm. Por lo que el área es " + areapentagono + " cm" + "</br>");
+
+
+//SOLUCION 2: CALCULAMOS LA APOTEMA CON JAVASCRIPT
+const PI2 = 3.14; //Math.PI
+apotemapentagono = ladopentagono / (2 * Math.tan(PI2/5));
+
+perimetroPetagono = (5 * ladopentagono);
+
+areapentagono = (perimetroPetagono * apotemapentagono)/2;
+
+document.write("Área del pentágono es cinco veces la longitud de su lado multiplicado por su apotema dividido entre dos. Su lado es " + ladopentagono + " cm y la apotema es " + apotemapentagono + " cm. Por lo que el área es " + areapentagono + " cm" + "</br>");
