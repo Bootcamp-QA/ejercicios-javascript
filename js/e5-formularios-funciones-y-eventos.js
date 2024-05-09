@@ -39,6 +39,8 @@ let nombre = "Reyes";
 agregarNuevoParrafo("Hola que tal" + nombre);
 agregarNuevoParrafo("Adios me voy");
 
+
+//-------------PARTE PRINCIPAL -------------------------//
 //Llamar a una funcion desde un boton de html con el evento onclick
 //Creamos la funcion saludar
 //EJEMPLO QUE PODEIS USAR DE REFERENCIA PARA HACER LA HISTORIA DE VER RESPUESTA
@@ -49,6 +51,7 @@ function saludar () {
 
 //Obtener informacion de un formulario y ejecutar una funcion con el evento onclick
 //EJEMPLO QUE PODEIS USAR DE REFERENCIA PARA HACER LA HISTORIA MENSAJE DE BIENVENIDA
+//Creamos la funcion imprimir que podra ser usada en las otras funciones
 function imprimir(mensaje,id) {
     let parrafo = document.getElementById(id);
     parrafo.innerText = mensaje;
@@ -60,6 +63,7 @@ function restar(){
     let num2 = document.getElementById("e3numero2").value;
     let resta = num1 - num2;
     let mensaje = "La resta de los numeros " + num1 + " y " + num2 + " es igual a " + resta;
+    //Usamos la funcion de imprimir que hemos declarado antse
     imprimir(mensaje,"funcionesEjemplo3");
 }
 
