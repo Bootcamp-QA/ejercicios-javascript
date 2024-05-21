@@ -220,10 +220,10 @@
         <p id="precioTotal"></p>
 
 
-        <h3>Ejercicio 5: Formulario para elegir la talla y el color de una camiseta.  </h3>
-        
+        <h3>Ejercicio 5: Formulario para elegir la talla y el color de una camiseta. </h3>
+
         <form id="ejercicio5Formularios" class="was-validated">
-            
+
             <div class="mb-3">
                 <label for="eje5TallaCamiseta">Talla Camiseta</label>
                 <select id="eje5TallaCamiseta" class="form-select" style="max-width: 150px;" required>
@@ -246,11 +246,12 @@
                     <option value="negro">Negro</option>
                 </select>
             </div>
-            <button type="button" id="eje5Boton" class="btn btn-primary" onclick="datosCamiseta()">Datos Camiseta</button>
-            
+            <button type="button" id="eje5Boton" class="btn btn-primary" onclick="datosCamiseta()">Datos
+                Camiseta</button>
+
         </form>
         <p id="eje5FormulariosResultado"></p>
-        
+
         <h3>Ejercicio 6: Formulario para mostrar la edad en dias, horas y minutos</h3>
 
         <div id="ejercio6Formulario" class="was-validated">
@@ -263,6 +264,44 @@
             <button type="button" class="btn btn-success" onclick="calcularEdad()">Edad</button>
         </div>
         <p id="ex6resultado"></p>
+
+        <h3>Ejercicio 7: Formulario para mostrar información sobre un texto</h3>
+        <form id="e7Formulario" class="was-validated">
+
+            <div class="mb-3">
+                <textarea class="form-control" id="e7texto" name="comentarios" rows="4" minlength="10" maxlength="100"
+                    placeholder="Escribe tu texto aquí..." required></textarea>
+                <p class="valid-feedback">Texto válido</p>
+                <p class="invalid-feedback">Introduzca un texto entre 10 y 100 carácteres, es obligatorio.</p>
+            </div>
+
+            <button type="button" class="btn btn-primary" onclick="mostrarTexto()">Mostrar texto</button>
+        </form>
+        <p id="e7resultadoTexto"></p>
+        <h3>Ejercicio 8: Formulario para calcular la nota media</h3>
+        <form id="ejercio8Formulario" class="was-validated">
+            <div class="mb-3">
+                <input type="number" id="ej8Nota1" placeholder="Introduce nota" required min="0" max="10"
+                    class="form-control">
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El valor es obligatorio y debe ser positivo entre 0 y 10 </p>
+            </div>
+            <div class="mb-3">
+                <input type="number" id="ej8Nota2" placeholder="Introduce nota" required min="0" max="10"
+                    class="form-control">
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El valor es obligatorio y debe ser positivo entre 0 y 10</p>
+            </div>
+            <div class="mb-3">
+                <input type="number" id="ej8Nota3" placeholder="Introduce nota" required min="0" max="10"
+                    class="form-control">
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El valor es obligatorio y debe ser positivo entre 0 y 10</p>
+            </div>
+
+            <button type="button" class="btn btn-success" onclick="calcularNotamedia()">Nota media</button>
+        </form>
+        <p id="ex8resultado"></p>
 
     </div>
     <script src="js/e5-formularios-funciones-y-eventos.js"></script>

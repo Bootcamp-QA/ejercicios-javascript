@@ -83,3 +83,38 @@ function calcularEdad(){
     let mensaje = " Si tienes " + edad + " años" + " habrás vivido " + dias + " días o " + min + " minutos " + " o " + sec + " segundos. "
     imprimir(mensaje, "ex6resultado");
 }
+/*
+7. Crea un formulario para mostrar información sobre un texto.
+Crea un elemento textArea que reciba un texto de longitud entre 10 y 100 caracteres. Debe ser obligatorio. Agrega validación Boostrap.
+Agrega un boton que al hacer click llame a una función que muestre un mensaje con el texto completo en mayusculas, la primera letra del texto, la última letra y su longitud.
+*/
+
+function mostrarTexto() {
+    let texto = document.getElementById("e7texto").value;
+  
+
+    let textoMayuscula = texto.toUpperCase();
+    let primeraLetra = texto.charAt(0); // texto[0]
+    let longitudTexto = texto.length;
+    let ultimaLetra = texto.charAt(longitudTexto - 1); //texto[longitudTexto-1]
+    
+
+
+    let mensaje = " Texto en mayúscula: " + textoMayuscula + " \nLa primera letra: " + primeraLetra + " \nSu última letra: " + ultimaLetra + " \nunto con su longitud: " + longitudTexto;
+    imprimir(mensaje, "e7resultadoTexto");
+}
+
+/*
+8. Crea un formulario para calcular la nota media.
+Agrega 3 elementos que reciban numeros entre 0 y 10 y que no pueden estar vacío. Agrega validación Boostrap.
+Agrega un boton que al hacer click llame a una función que muestre un mensaje con la media de los tres números.
+ */
+// Nota media//
+function calcularNotamedia(){
+    let Nota1 = parseInt(document.getElementById("ej8Nota1").value);
+    let Nota2 = parseInt(document.getElementById("ej8Nota2").value);
+    let Nota3 = parseInt(document.getElementById("ej8Nota3").value);
+    let notaMedia = (Nota1 + Nota2 + Nota3)/ 3;
+    let mensaje = "Nota1: " + Nota1 + "; Nota 2: " + Nota2 + "; Nota 3: " + Nota3 + "; Nota media es igual a: " + notaMedia;
+    imprimir(mensaje, "ex8resultado");
+}
