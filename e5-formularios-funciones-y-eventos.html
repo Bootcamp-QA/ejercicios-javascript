@@ -302,6 +302,67 @@
             <button type="button" class="btn btn-success" onclick="calcularNotamedia()">Nota media</button>
         </form>
         <p id="ex8resultado"></p>
+        <h3>Ejercicio 9: Formulario camisetas</h3>
+        <form id="ejercio9Formulario" class="was-validated">
+            <p>Seleccione la cantidad de de camisetas, zapatos y sombreros</p>
+            <p>Seleccione la cantidad de camisetas:</p>
+            <select id="ej9camiseta" class="form-select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+            </select>
+            <p>Seleccione la cantidad de zapatos</p>
+            <select id="ej5zapatos" class="form-select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+            </select>
+            <p>Seleccione la cantidad de sombreros</p>
+            <select id="ej5sombreros" class="form-select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+            </select>
+            <button type="button" class="btn btn-success" onclick="mostrarProducto()">mostrar</button>
+        </form>
+        <p id="respuesta9"></p>
+        <h3>Ejercicio 10:Crea un formulario para que el usuario pueda introducir el nombre de su mascota,
+            y seleccionar el tipo: perro, gato, tortuga, pajaro</h3>
+
+        <form class="was-validated">
+            <div class="mb-3">
+                <label for="texto" class="form-label">Ingresa el nombre de tu mascota:</label>
+                <input type="text" class="form-control" id="nombremascota" required>
+                <div class="invalid-feedback">
+                    (entre 0 y 10 caracteres).
+                </div>
+                <div class="valid-feedback">
+                    El nombre es valido
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="Mascota">Tú mascota es un/una:</label>
+                <select id="mascota" class="form-select" style="max-width: 150px;">
+                    <option value=""></option>
+                    <option value="perro">Perro</option>
+                    <option value="gato">Gato</option>
+                    <option value="tortuga">Tortuga</option>
+                    <option value="periquito">periquito</option>
+                </select>
+            </div>
+            <button type="button" id="eje5Boton" class="btn btn-primary" onclick="nombreTipo()">Resultado</button>
+
+        </form>
+        <p id="eje10Resultado"></p>
+    </div>
+
 
     </div>
     <script src="js/e5-formularios-funciones-y-eventos.js"></script>
