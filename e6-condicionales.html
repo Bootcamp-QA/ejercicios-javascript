@@ -101,7 +101,8 @@
         <p id="ej6resultado"></p>
 
         <h3>Ejemplo 7: Condicionales Operador Logico AND &&</h3>
-        <p>Muestra si el usuario puede entrar gratis al museo o no. Para entrar gratis debe ser menor de 16 y ser de Malaga</p>
+        <p>Muestra si el usuario puede entrar gratis al museo o no. Para entrar gratis debe ser menor de 16 y ser de
+            Malaga</p>
         <form id="ejemplo7Condicionales" class="was-validated">
             <div class="mb-3">
                 <select id="e7ciudad" required>
@@ -114,8 +115,7 @@
                 <p class="invalid-feedback">La ciudad es obligatoria</p>
             </div>
             <div class="mb-3">
-                <input type="number" id="e7edad" placeholder="Introduce tu edad" required min="1"
-                    class="form-control">
+                <input type="number" id="e7edad" placeholder="Introduce tu edad" required min="1" class="form-control">
                 <p class="valid-feedback">correcto</p>
                 <p class="invalid-feedback">Debes tener mas de 1 año de edad</p>
             </div>
@@ -123,7 +123,8 @@
         </form>
         <p id="e7resultado"></p>
         <h3>Ejemplo 8: Condicionales Operador Logico OR || </h3>
-        <p>Muestra si el usuario puede entrar gratis al museo o no. Para entrar gratis debe ser menor de 16 o ser de Malaga</p>
+        <p>Muestra si el usuario puede entrar gratis al museo o no. Para entrar gratis debe ser menor de 16 o ser de
+            Malaga</p>
         <form id="ejemplo8Condicionales" class="was-validated">
             <div class="mb-3">
                 <select id="e8ciudad" required>
@@ -136,8 +137,7 @@
                 <p class="invalid-feedback">La ciudad es obligatoria</p>
             </div>
             <div class="mb-3">
-                <input type="number" id="e8edad" placeholder="Introduce tu edad" required min="1"
-                    class="form-control">
+                <input type="number" id="e8edad" placeholder="Introduce tu edad" required min="1" class="form-control">
                 <p class="valid-feedback">correcto</p>
                 <p class="invalid-feedback">Debes tener mas de 1 año de edad</p>
             </div>
@@ -145,7 +145,8 @@
         </form>
         <p id="e8resultado"></p>
         <h3>Ejemplo 9: Condicionales Operador Logico NOT ! </h3>
-        <p>Muestra si el usuario puede entrar gratis al museo o no. Solo pueden entrar gratis quienes no sean de malaga con menos de 16</p>
+        <p>Muestra si el usuario puede entrar gratis al museo o no. Solo pueden entrar gratis quienes no sean de malaga
+            con menos de 16</p>
         <form id="ejemplo9Condicionales" class="was-validated">
             <div class="mb-3">
                 <select id="e9ciudad" required>
@@ -158,8 +159,7 @@
                 <p class="invalid-feedback">La ciudad es obligatoria</p>
             </div>
             <div class="mb-3">
-                <input type="number" id="e9edad" placeholder="Introduce tu edad" required min="1"
-                    class="form-control">
+                <input type="number" id="e9edad" placeholder="Introduce tu edad" required min="1" class="form-control">
                 <p class="valid-feedback">correcto</p>
                 <p class="invalid-feedback">Debes tener mas de 1 año de edad</p>
             </div>
@@ -167,12 +167,13 @@
         </form>
         <p id="e9resultado"></p>
         <h3>Ejemplo 10: Condicionales Switch</h3>
-        <p>El usuario debe introducir su mes de nacimiento de 1 a 12 un mes y debe mostrar su horoscopo segun el mes elegido.</p>
+        <p>El usuario debe introducir su mes de nacimiento de 1 a 12 un mes y debe mostrar su horoscopo segun el mes
+            elegido.</p>
         <form id="ejemplo10Condicionales" class="was-validated">
-           
+
             <div class="mb-3">
-                <input type="number" id="e10mesNacimiento" placeholder="Introduce tu mes de nacimiento" required min="1" max="12"
-                    class="form-control">
+                <input type="number" id="e10mesNacimiento" placeholder="Introduce tu mes de nacimiento" required min="1"
+                    max="12" class="form-control">
                 <p class="valid-feedback">correcto</p>
                 <p class="invalid-feedback">Debes introducir un mes entre 1 y 12</p>
             </div>
@@ -199,12 +200,14 @@
         <h3>Ejercicio 2: Formulario para ver cual es el mayor de dos numeros </h3>
         <form id="ej2Condicionales" class="was-validated">
             <div class="mb-3">
-                <input type="number" id="ej2Numero" placeholder="Introduce un numero" required step="0.01" class="form-control">
+                <input type="number" id="ej2Numero" placeholder="Introduce un numero" required step="0.01"
+                    class="form-control">
                 <p class="valid-feedback">Correcto</p>
                 <p class="invalid-feedback">Campo vacio</p>
             </div>
             <div class="mb-3">
-                <input type="number" id="ej2Numer" placeholder="Introduce un numero" required step="0.01" class="form-control">
+                <input type="number" id="ej2Numer" placeholder="Introduce un numero" required step="0.01"
+                    class="form-control">
                 <p class="valid-feedback">Correcto</p>
                 <p class="invalid-feedback">Campo vacio</p>
             </div>
@@ -212,6 +215,50 @@
         </form>
         <p id="ej2Mayor"></p>
 
+        <h3>Ejercicio 3: Formulario para ver si el alumno esta aprobado o no</h3>
+
+        <form id="ejercicio3Condicionales" class="was-validated">
+            <div class="mb-3">
+                <input type="number" id="ej3nota" placeholder="Introduce tu nota" required min="0" max="10" step="0.001"
+                    class="form-control">
+                <p class="valid-feedback">Correcto</p>
+                <p class="invalid-feedback">El campo es obligatorio y debe estar entre 0 y 10</p>
+            </div>
+            <button type="button" class="btn btn-success" onclick="notaExamen()">Ver Resultado</button>
+        </form>
+        <p id="ejer3resultado"></p>
+        <h3>Ejercicio 4: Comprobar longitud de un nombre si es largo o corto</h3>
+        <form id="ej5Condicionales" class="was-validated">
+            <div class="mb-3">
+                <input type="text" id="ejercicio5nombre" placeholder="Introduce un nombre" required class="form-control">
+                <p class="valid-feedback">Correcto</p>
+                <p class="invalid-feedback">El campo es obligatorio</p>
+            </div>
+            <button type="button" class="btn btn-success" onclick="nombreCortoLargo()">Enviar</button>
+        </form>
+        <p id="ejercicio5resultado"></p>
+        <h3>Ejercicio 5: Ver la estacion del anyo</h3>
+        <form class="was-validated">
+            <div class="mb-3">
+            <label for="Selecciona un mes">Selecciona un mes:</label>
+            <select id="ex6" class="form-control">
+                <option value="Enero">Enero</option>
+                <option value="Febrero">Febrero</option>
+                <option value="Marzo">Marzo</option>
+                <option value="Abril">Abril</option>
+                <option value="Mayo">Mayo</option>
+                <option value="Junio">Junio</option>
+                <option value="Julio">Julio</option>
+                <option value="Agosto">Agosto</option>
+                <option value="Septiembre">Septiembre</option>
+                <option value="Octubre">Octubre</option>
+                <option value="Noviembre">Noviembre</option>
+                <option value="Diciembre">Diciembre</option>
+            </select>
+            </div>
+            <button type="button" class="btn btn-success" onclick=" mesEstacion()">El mes corresponde a la estacion</button>
+            <p id="ex6Resultado"></p>
+        </form>
 
     </div>
 
