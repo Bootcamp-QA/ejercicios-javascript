@@ -20,14 +20,15 @@ function mostrarFrase(){
 }
 
 //EJEMPLO 2: FOR
+//Mostrar la tabla de multiplicar
 function mostrarTabla() {
-    let numero = parseInt(document.getElementById("e2tablamultiplicar").value);
-    let repeticiones = 11;
+    let numero = parseInt(document.getElementById("e2tablamultiplicar").value); //cogemos el numero introducido en el formulario
+    let repeticiones = 11; //repetimos el bucle de 0 a 10
     let mensaje = "";
     for (let i=0;i<repeticiones; i++){
-        let resultado = numero * i;
-        mensaje += "Tabla de multiplicar" + numero + "x"+ i + "=" + resultado + "\n";
+        let resultado = numero * i; //multiplicamos el numero introducido por el valor de i, que sera 0,1,2,3....
+        mensaje += "Tabla de multiplicar" + numero + "x"+ i + "=" + resultado + "\n"; //agregamos el resultado al mensaje
     }
-    imprimir(mensaje,"e2solucion");
+    imprimir(mensaje,"e2solucion"); //lo mostramos en el html
 }
 
