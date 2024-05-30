@@ -25,3 +25,26 @@ function posicionLista() {
 
     
 }
+
+/**
+ * 3. Agrega un boton mostrar alumnos ordenados, que muestre los alumnos ordenados por nombre.
+ */
+
+function alumnosOrdenados() {
+    listaAlumnos.sort();
+    mostrarListado();
+}
+
+/**
+ * 4. Agrega una nueva opcion para agregar un nuevo alumno. Para ello:
+Agrega un campo para introducir el nombre del alumno. No puede estar vacio y debe tener maximo 30 caracteres.
+Agrega un boton agregar, que al pulsarlo agrege al nuevo alumno a la lista y muestre la lista de alumnos actualizada.
+ */
+
+function agregarAlumno(){
+    let nuevoAlumno = document.getElementById("ej4nombre").value;
+    listaAlumnos.push(nuevoAlumno);
+    let mensaje = "La nueva lista es " + listaAlumnos;
+    imprimir(mensaje, "respuesta4");
+    //mostrarListado();
+}

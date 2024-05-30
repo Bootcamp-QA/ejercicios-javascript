@@ -111,6 +111,23 @@
         </form>
         <div id="ej2resultado"></div>
 
+        <h3>Ejercicio 3: Muestra la lista de alumnos ordenada</h3>
+        <button type="button" class="btn btn-success" onclick="alumnosOrdenados()">Mostrar alumnos ordenados</button>
+        <p id="ej3ordenados"></p>
+
+        
+        <h3>Ejercicio 4: Agrega una nueva opcion para agregar un nuevo alumno.</h3>
+        <form id="ejercicio4Formulario" class="was-validated">
+            <div class="mb-3">
+                <input type="text" id="ej4nombre"placeholder="Introduce el nombre que quieres agregar" required >
+                <p class="valid-feedback">correcto</p>
+                <p class="invalid-feedback">El campo es obligatorio</p>
+            </div>
+            <button type="button" class="btn btn-success" onclick="agregarAlumno()">Agregar Alumno</button>
+        </form>
+        <p id="respuesta4"></p>
+
+
     </div>
 
     <script src="js/e7-arrays.js"></script>
