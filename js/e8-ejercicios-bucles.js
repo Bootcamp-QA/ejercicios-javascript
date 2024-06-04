@@ -33,7 +33,7 @@ function mostrarPalabra(){
 2. Agrega un boton que al pulsarlo muestre el numero de veces indicado, la palabra AMAPOLA, si la palabra introducida por el usuario empieza por VOCAL, que muestre la palabra MARGARITA en cualquier otro caso.
  */
 
-function eleccionPalabra(){
+function eleccionPalabra() {
     let palabra = document.getElementById("ex3palabra").value;
     palabra = palabra.toLowerCase();
     let numero = parseInt(document.getElementById("ex3numerorepeticion").value);
